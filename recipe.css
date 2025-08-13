@@ -1,0 +1,121 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/*Incropration of old content*/
+.nav{
+    width:70vw;
+    height:7vh;
+    background-color:#ff7043 ;
+    display:flex;
+    align-item:center;
+    flex-direction:row;
+    justify-content:right;
+    padding-left:370px;
+    font-size:16px;
+}
+
+.icon{
+    display:flex;
+    align-item:center;
+    justify-content:space-between;
+    width:20%;
+    padding:10px 10px 10px 10px;
+    box-sizing: border-box;
+    transition: background 50ms;
+    cursor:pointer;
+}
+.nav:hover{
+    transform: translate(0);
+}
+
+.icon:hover{
+    margin-left:1px;
+    border: 2px solid #fff3e0;
+}
+
+
+
+.featured {
+    padding: 40px 50px;
+    text-align: center;
+    background: #fff3e0;
+}
+.recipes {
+    padding: 40px 50px;
+    /*new content added here*
+    /*Added upto here*/
+}
+header {
+    background: #ff7043;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+header nav a:hover {
+    text-decoration: none;
+}
+img {
+    width:250px;
+    height:px;
+}
+footer {
+    background: #ff7043;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+d{
+    display:flex;
+}
+.nav1{
+    width:600px;
+    height:400px;
+    background-color:#ff7043 ;
+    display:flex;
+    align-item:center;
+    flex-direction:row;
+    justify-content:right;
+    font-size:16px;
+    border-radius:20px;
+}
+
+.nav1_C{
+    padding-left:300px;
+}
+
+.icon1{
+    display:flex;
+    align-item:center;
+    justify-content:space-between;
+    height:400px;
+    width:300px;
+    padding:10px 10px 10px 10px;
+    box-sizing: border-box;
+    transition: background 50ms;
+    cursor:pointer;
+}
+img{
+    border-radius:20px;
+}
+.nav1:hover{
+    transform: translate(0);
+}
+
+.icon1:hover{
+    margin-left:1px;
+    border: 2px solid #fff3e0;
+}
